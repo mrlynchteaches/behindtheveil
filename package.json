@@ -1,0 +1,12 @@
+{
+  "name": "behind-the-veil",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test",
+    "deploy": "npm run build && npx wrangler deploy"
+  }
+}
